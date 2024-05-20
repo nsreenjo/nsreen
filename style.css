@@ -1,0 +1,178 @@
+a{
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+    font-weight: 600;}
+header{
+    display: flex;
+    background: #6EA2D2;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom-left-radius: 50px;
+}
+.logo{
+    margin-left: 1em;
+}
+
+
+.logo img{
+    border-radius: 50%;
+    height: 70px;
+    width: 100px;
+}
+.links a{
+    background: #fcfdfd;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.perant {
+    display: flex;
+    flex-direction: row;
+    border: 10px;
+    margin: 20px;
+    height: 100px;
+}
+h1{
+    color:#6EA2D2;
+}
+h3{
+    color: #fcfdfd;
+}
+.img{
+    display: flex;
+    justify-content: end;
+    align-self: start;
+    width: 400px;
+    height:300px;
+}
+.pi{
+    background-color: black;
+    height: 500px;
+}
+.a{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.High{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+margin: 20px;}
+.pic{
+    height: 600px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sk{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: black;
+    color: azure;
+    font-size: larger;}
+  .pic-social{
+    background-color: rgb(2, 2, 2); height: 500px;
+    display: flex;
+    height:150px ;
+    color: #f3f9f9;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+padding: 10px;
+  }
+  img {
+    
+    border-radius: 50px ;
+  }
+
+  ol{
+    font-size: larger;
+    margin: 50px;
+  }
+  hr{
+    color: #050505;
+    background-color: black;
+  }
+  .zaroo{
+    background-color: black;
+  }
+  .q{
+    margin: 40px;
+    display: flex;
+    align-items: center;
+  }
+.call{
+    background-color: #6EA2D2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+  .figma{
+    background-color: black;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+  }
+@media(max-width:821){
+ 
+  h3{font-size: xx-small;}
+}
+
+@media(max-width:821px){
+ 
+  .pic{display: flex;
+    height: 1300px;
+  flex-direction: column;
+}
+}
+
+@media(max-width:821px){
+ 
+  .pic h1{
+    height: 80px;display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
+@media(max-width:821px){
+ .a{font-size
+  :larger;}
+  }
+
+  @media(max-width:821px){
+    .High h2{font-size:large;}
+    .img{
+      width: 200px;
+    }
+     }
+     @media(max-width:821px){
+     .pic img {
+        width: 600px;
+        height: 550px;
+      }
+       }
+
+
+
+
+
+
+  
+
